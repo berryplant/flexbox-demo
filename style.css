@@ -1,3 +1,22 @@
 body {
     background-color: salmon;
 }
+
+main {
+    height: 80vh;
+    border: 1px solid black;
+    display: flex;
+}
+
+section {
+    background: chartreuse;
+    border: 1px solid deeppink;
+    flex-basis: 200px;
+    /* flex-grow: 1; */
+}
+
+#special {
+    background-color: cornflowerblue;
+    /* flex-grow: 20; */
+    flex-shrink: 5;
+}
